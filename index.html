@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="box">
+     <header>
+      <h1>Sign Up</h1>
+      <p>It's qucik & easy</p>
+     </header><hr width="95%" color="#efefef">
+     <main>
+      <form>
+        <div class="one">
+          <input type="text" placeholder="Firstname" class="first" required><i class="fa-solid fa-circle-exclamation a1"></i>
+          <input type="text" placeholder="Surname" class="sur" required><i class="fa-solid fa-circle-exclamation a2"></i>
+        </div>
+        <div class="three">
+          <input type="text" placeholder="Mobile number or Email address" class="num" required><i class="fa-solid fa-circle-exclamation a3"></i>
+        </div>
+        <div class="four">
+          <input type="password" placeholder="New Password" class="pass" required maxlength="10">
+          <i class="fa-solid fa-circle-exclamation a4"></i>
+          <i class="fa-solid fa-check a5"></i>
+        </div>
+       <small>Set Strong Password using uppercase,lowercase,number and symbols.</small>
+        <div class="pass_hint">
+          <div class="pass_text">
+            <i class="fa-solid fa-key"></i>
+            <p>Use a Securely Generated Password</p>
+          </div>
+          <p class="pass_word">DjK4#nopQ%</p>
+        </div>
+        <input type="checkbox" class="check">
+        <p class="check_text">Show Password</p> 
+        <div class="date">
+        Date of Birth <input type="date" class="dob" required>
+        </div>
+        <div class="gender">
+          Gender<br><input type="radio" class="s1" name="gender" value="Male" required> Male <input type="radio" class="s2" name="gender" value="Female" required> Female <input type="radio" class="s3" name="gender" value="Custom" required> Custom
+        </div>
+        <div class="press">
+        <button type="submit" class="btn">Sign in</button>
+        </div>
+      </form>
+     </main>
+    </div>
+    <span></span>
+    <script src="script.js"></script>
+  </body>
+</html>
